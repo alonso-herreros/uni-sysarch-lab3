@@ -6,7 +6,7 @@
 
 
 int main(int argc, char **argv) {
-    struct Human humans[HUMANS_COUNT];
+    human_t humans[HUMANS_COUNT];
     init_human(&humans[0], "Alice", COMMON, 0.8);
     init_human(&humans[1], "Bob", HARMLESS, 0.2);
     init_human(&humans[2], "Charlie", DANGEROUS, 0.5);

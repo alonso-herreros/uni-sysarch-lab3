@@ -1,20 +1,20 @@
 #ifndef HUMAN_H
 #define HUMAN_H
 
-enum Hazard {HARMLESS, COMMON, DANGEROUS};
+typedef enum Hazard {HARMLESS, COMMON, DANGEROUS} hazard_t;
 
-struct Human { 
+typedef struct Human { 
     char *name;
-    enum Hazard hazard;
+    hazard_t hazard;
     float recruitmentProb;
-};
+} human_t;
 
-struct Human *init_human(struct Human *human, char *name, enum Hazard hazard, float recruitmentProb);
+human_t *init_human(human_t *human, char *name, hazard_t hazard, float recruitmentProb);
 
-int count_recruitable_humans(struct Human *humans, int size, float recruitmentReq, enum Hazard hazardReq);
+int count_recruitable_humans(human_t *humans, int size, float recruitmentReq, hazard_t hazardReq);
 
-void free_human(struct Human *human);
+void free_human(human_t *human);
 
-void free_humans(struct Human *humans, int size);
+void free_humans(human_t *humans, int size);
 
 #endif
