@@ -4,6 +4,10 @@
 
 ---
 
+| Owner name | Student ID @ UC3M (NIA) | Main branch |
+| :---: | :---: | :---: |
+| Alonso Herreros Copete | 100493990 | `main` |
+
 ## Compilation & execution
 To compile and execute the code, you may use these commands inside the repo (not from the src folder):
 ```bash
