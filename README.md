@@ -7,7 +7,7 @@
 ## Compilation & execution
 To compile and execute the code, you may use these commands inside the repo (not from the src folder):
 ```bash
-gcc ./src/*.c -o -Wall ./bin/P
-chmod o+rx ./bin/P
-./bin/P
+gcc ./src/*.c -o ./bin/main -g -Wall 
+chmod o+rx ./bin/main
+./bin/main
 ```
