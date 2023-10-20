@@ -25,4 +25,4 @@ chmod o+rx ./bin/main
 | Problem 3 | Done |
 | Problem 4 | Done |
 | Problem 5 | Done |
-| Problem 6 | - |
+| Problem 6 | Done |
