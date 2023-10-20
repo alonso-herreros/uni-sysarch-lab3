@@ -1,6 +1,13 @@
 #ifndef PARTIDA_H
 #define PARTIDA_H
 
+
+enum error_code {
+    SUCCESS = 0,
+    MEMORY_ERROR = 1,
+    OUT_OF_BOUNDS = 2
+};
+
 typedef struct partida {
     float puntos;
     char *nombre;

@@ -3,13 +3,6 @@
 #include <string.h>
 
 
-enum error_code {
-    SUCCESS = 0,
-    MEMORY_ERROR = 1,
-    OUT_OF_BOUNDS = 2
-};
-
-
 void Partida_free(Partida *game)
 {
     free(game->nombre);
