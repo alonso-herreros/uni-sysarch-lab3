@@ -54,6 +54,7 @@ static int find_player(Puntuacion *point_counts, int num_counts, char *player_na
 */
 Puntuacion *agrego_puntuacion(Partida *games, int num_games, int *num_players, int *error)
 {
+    *error = SUCCESS;
     if (num_games <= 0)  return NULL; // No error
 
     Puntuacion *players_counts = calloc(num_games, sizeof(Puntuacion));
