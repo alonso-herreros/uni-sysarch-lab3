@@ -7,9 +7,23 @@ void Partida_free(Partida game)
 {
     free(game.nombre);
 }
+void Partida_freeall(Partida *games, int num_games)
+{
+    for (int i=0; i<num_games; i++) {
+        Partida_free(games[i]);
+    }
+    free(games);
+}
 void Puntuacion_free(Puntuacion score)
 {
     free(score.nombre);
+}
+void Puntuacion_freeall(Puntuacion *scores, int num_scores)
+{
+    for (int i=0; i<num_scores; i++) {
+        Puntuacion_free(scores[i]);
+    }
+    free(scores);
 }
 
 
