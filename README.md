@@ -23,6 +23,6 @@ chmod o+rx ./bin/main
 | Problem 1 | Done |
 | Problem 2 | - |
 | Problem 3 | - |
-| Problem 4 | - |
+| Problem 4 | Done |
 | Problem 5 | - |
 | Problem 6 | - |
