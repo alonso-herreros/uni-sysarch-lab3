@@ -21,7 +21,7 @@ chmod o+rx ./bin/main
 | Problem | Status |
 | --- | :---: |
 | Problem 1 | Done |
-| Problem 2 | - |
+| Problem 2 | Done |
 | Problem 3 | - |
 | Problem 4 | - |
 | Problem 5 | - |
