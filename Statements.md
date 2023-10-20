@@ -149,17 +149,16 @@ children, and for each child her/his name, the number of played games and her/hi
 Implement using dynamic arrays a data structure that behaves as a stack of `float`.
 In order to achieve this, you should:
 * Define the data structure `struct stack`.
-* Implement the `init` function that will receive as parameters at least:
-* a variable of type `struct stack`;
-* the initial capacity of the stack, a positive integer;
-* factor, a positive integer, that will be the factor by which the stack will augment if it is filled.
-This function should initialize the stack to the given initial capacity.
+* Implement the `init` function that  should initialize the stack to the given initial capacity. It will receive as parameters at least:
+  * a variable of type `struct stack`;
+  * the initial capacity of the stack, a positive integer;
+  * factor, a positive integer, that will be the factor by which the stack will augment if it is filled.    
 * Implement the function `delete_stack` that will free the dynamic memory used by the stack.
 * Implement the functions `push` and `pop`.
-* You can define the input and output parameters as you consider.
-* Within the function `push`, if the stack is full, you should augment it in order to be able to store
+  * You can define the input and output parameters as you consider.
+  * Within the function `push`, if the stack is full, you should augment it in order to be able to store
 the new element (by the factor given when the stack was initialized).
-* The `pop` function should return a `float`. If there are no data in the stack, you should inform
+  * The `pop` function should return a `float`. If there are no data in the stack, you should inform
 the user that an error happened.
 * Implement the function `size` that returns the number of elements stored in the stack. The function
 should return a `-1` if there are no elements in the stack.
