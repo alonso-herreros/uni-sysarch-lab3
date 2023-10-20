@@ -19,6 +19,7 @@ typedef struct puntuacion {
     int num_partidas;
 } Puntuacion;
 
+Partida Partida_set(Partida *game, char *nombre, float puntos);
 Puntuacion *agrego_puntuacion(Partida *games, int num_games, int *num_players, int *error);
 void Partida_free(Partida game);
 void Partida_freeall(Partida *games, int num_games);

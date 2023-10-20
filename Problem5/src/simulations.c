@@ -3,6 +3,13 @@
 #include <string.h>
 
 
+Partida Partida_set(Partida *game_p, char *nombre, float puntos)
+{
+    game_p->nombre = strdup(nombre);
+    game_p->puntos = puntos;
+    return *game_p;
+}
+
 void Partida_free(Partida game)
 {
     free(game.nombre);
