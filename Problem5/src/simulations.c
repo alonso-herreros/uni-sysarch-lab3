@@ -3,15 +3,13 @@
 #include <string.h>
 
 
-void Partida_free(Partida *game)
+void Partida_free(Partida game)
 {
-    free(game->nombre);
-    free(game);
+    free(game.nombre);
 }
-void Puntuacion_free(Puntuacion *score)
+void Puntuacion_free(Puntuacion score)
 {
-    free(score->nombre);
-    free(score);
+    free(score.nombre);
 }
 
 
