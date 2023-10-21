@@ -6,7 +6,7 @@ _Telematics Engineering Department - Universidad Carlos III de Madrid_
 
 ---
 
-# PART 1: DYNAMIC MEMORY
+# PART 1: DYNAMIC MEMORY (2020-2021 Midterm Module 1 G95)
 ## PROBLEM 1
 
 The Cylons have a plan.
@@ -34,7 +34,8 @@ Implement a **main program**, which creates a fixed-size array of size 4 humans,
 it (with the values you want), calls the function in the previous section and prints out the value returned by that
 function. The name of the human should be stored in dynamic memory.
 
-## PROBLEM 2
+
+## PROBLEM 2 (2020-2021 Midterm Module 1 G195)
 We have been entrusted with the task of implementing a completely new question and answer PC game based
 on the well-known travel guide "The Hitchhiker's Guide to the Galaxy". Once our board game has been
 developed, it will be released in a pack that will include a Babel fish and a towel.
